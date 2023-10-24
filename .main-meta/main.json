@@ -1,0 +1,54 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f56q71-ultrasonic-range-detection-mplab-mcc",
+        "version": " ",
+        "displayName": "",
+        "projectName": "pic18f56q71-ultrasonic-range-detection-mplab-mcc",
+        "shortDescription": "This code example demonstrates how an ultrasonic range detector can be built using the Core Independent Peripherals available on the PIC18-Q71 device family.",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.15.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.45.0"
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F56Q71",
+                "versionRange": "*"
+            }
+        },
+        "author": "Cristian Cristea",
+        "peripherals": [],
+        "keywords": [],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
