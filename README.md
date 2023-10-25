@@ -6,11 +6,11 @@
     </picture>
 </a>
 
-# Fine-tune Signal Amplification with Integrated Analog featuring Ultrasonic Range Detection — Use Case for the PIC18F56Q71 Microcontroller with MCC Melody
+# Fine-tune Signal Amplification with Integrated Analog featuring Ultrasonic Range Detection - Use Case for the PIC18F56Q71 Microcontroller with MCC Melody
 
 This application note describes how an ultrasonic range detector can be built using the Core Independent Peripherals (CIP) available on the PIC18-Q71 device family. The featured peripherals on this device family enable the ultrasonic range detection circuit to measure and compute the distance traveled by the ultrasonic signal while using minimal resources from the Central Processing Unit (CPU).
 
-The focus of the application is making use of two ultrasonic transducers: one as a transmitter and the other as a receiver. The transmitter emits an ultrasonic signal, while the receiver captures the reflected pulse. Two alternating Pulse-Width Modulation (PWM) signals drive the transmitter to create the required sent pulse, while a Peak Detector and Comparator are used to acquire the reflected signal. Meanwhile, a Universal Timer (UTMR) is employed to measure the time taken for the ultrasonic sonic signal to reach its target and then the distance is calculated based on the speed of sound.
+The focus of the application is to make use of two ultrasonic transducers: one as a transmitter and the other as a receiver. The transmitter emits an ultrasonic signal, while the receiver captures the reflected pulse. Two alternating Pulse-Width Modulation (PWM) signals drive the transmitter to create the required sent pulse, while a Peak Detector and Comparator are used to acquire the reflected signal. Meanwhile, a Universal Timer (UTMR) is employed to measure the time taken for the ultrasonic sonic signal to reach its target and then the distance is calculated based on the speed of sound.
 
 The accuracy and precision of the measurements are dependent upon the shape and structure of the target object. Objects that are flat, large, or parallel to the ultrasonic transducers yield the most accurate responses, while small, curved, or tilted objects will provide a weak echo response due to wave scattering. Furthermore, environmental conditions such as temperature and humidity or airborne debris such as rain, snow, or dust may also alter the measurements taken.
 
@@ -29,8 +29,8 @@ The accuracy and precision of the measurements are dependent upon the shape and 
 ## Software Used
 
 - [MPLAB® X IDE v6.15 or newer](http://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC8 2.45 or newer](http://www.microchip.com/mplab/compilers)
-- [MPLAB® Code Configurator Melody](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator/melody)
+- [MPLAB XC8 2.45 or newer](http://www.microchip.com/mplab/compilers)
+- [MPLAB Code Configurator Melody](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator/melody)
 - [PIC18F-Q_DFP Device Family Pack v1.22.413 or newer](https://packs.download.microchip.com/)
 
 ## Hardware Used
@@ -320,13 +320,13 @@ The 40 kHz signal that is needed to drive the ultrasonic transducer is generated
   <img alt="Shows a timing waveform for the drive signal." src="images/drive.png" width="1000">
 </picture>
 
-The following figure highlights a received amplified ultrasonic echo in gray (OPAMP_OUT) along with the two PWM2 signals. One can clearly see the hardware delay between the falling edge of the PWM_CONTROL (that starts the UTMR’s counting) and the rising edge of the PWM_TIMER (that enables the OPAMP’s amplification).
+The following figure highlights a received amplified ultrasonic echo in gray (OPAMP_OUT) along with the two PWM2 signals. The hardware delay between the falling edge of the PWM_CONTROL (that starts the UTMR’s counting) and the rising edge of the PWM_TIMER (that enables the OPAMP’s amplification) can easily be observed.
 
 <picture>
   <img alt="Shows a waveform of the received amplified ultrasonic signal." src="images/echo.png" width="1000">
 </picture>
 
-The last figure illustrates the same scenario with the same signals, but with the OPAMP’s peak detector enabled. One should observe the small peak at the end of the main signal’s amplitude. This would have been detected as a new echo signal by the comparator if its interrupts hadn’t been disabled after the first acquisition in the current measurement window.
+The last figure illustrates the same scenario with the same signals, but with the OPAMP’s peak detector enabled. Observe the small peak at the end of the main signal’s amplitude. This would have been detected as a new echo signal by the comparator if its interrupts had not been disabled after the first acquisition in the current measurement window.
 
 <picture>
   <img alt="Shows a waveform of the received amplified ultrasonic signal that was passed through the peak detector." src="images/peak.png" width="1000">
@@ -338,7 +338,7 @@ This application demonstrates the capabilities of the Core Independent Periphera
 
 ## How to Program the Curiosity Nano board
 
-This chapter shows how to use the MPLAB X IDE to program an PIC® device with an *ExampleProject.X*. This can be applied for any other projects.
+This chapter shows how to use the MPLAB X IDE to program a PIC® device with an *ExampleProject.X*. This can be applied for any other projects.
 
 1. Connect the board to the Computer.
 
@@ -360,13 +360,13 @@ This chapter shows how to use the MPLAB X IDE to program an PIC® device with an
 
     - Right click on the project and click **Properties**
     - Click on the arrow under the Connected Hardware Tool
-    - Select the **PIC Curiosity Nano**, click **Apply** and then click **OK**:
+    - Select the **PIC Curiosity Nano**, click **Apply** and then **OK**:
 
     ![Select the PIC Curiosity Nano](images/device.png)
 
 6. Program the project to the board.
 
-    Right click on the project and click **Make and Program Device**.
+    Right click on the project and select **Make and Program Device**.
 
     ![Make and Program Device](images/make-and-program.png)
 
@@ -381,4 +381,4 @@ This chapter shows how to use the MPLAB X IDE to program an PIC® device with an
 - [Back to Setup](#setup)
 - [Back to Summary](#summary)
 - [Back to How to Program the Curiosity Nano board](#how-to-program-the-curiosity-nano-board)
-- [Back to Top](#fine-tune-signal-amplification-with-integrated-analog-featuring-ultrasonic-range-detection--use-case-for-the-pic18f56q71-microcontroller-with-mcc-melody)
+- [Back to Top](#fine-tune-signal-amplification-with-integrated-analog-featuring-ultrasonic-range-detection---use-case-for-the-pic18f56q71-microcontroller-with-mcc-melody)
