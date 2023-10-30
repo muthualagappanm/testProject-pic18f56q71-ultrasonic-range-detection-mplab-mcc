@@ -1,8 +1,4 @@
 /**
- *  @file app.c
- *  @author Cristian Cristea - M70957
- *  @date August 16, 2023
- *
  *  @brief Source file for the Application module
  *
  *  @copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.

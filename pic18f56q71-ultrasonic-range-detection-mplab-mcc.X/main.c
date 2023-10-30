@@ -1,7 +1,4 @@
 /**
- *  @file main.c
- *  @author Cristian Cristea - M70957
- *
  *  @brief Main source file for the Fine-tune Signal Amplification with 
  *         Integrated Analog featuring Ultrasonic Range Detection Application 
  *         Note

@@ -1,8 +1,4 @@
 /**
- *  @file move_avg.h
- *  @author Cristian Cristea - M70957
- *  @date August 18, 2023
- *
  *  @brief Header file for the Moving Average module
  *
  *  @copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
