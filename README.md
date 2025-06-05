@@ -1,3 +1,6 @@
+# Updating the master branch readme. THis is updated from amster branch and testing if it shows current version
+
+
 <a href="https://www.microchip.com">
     <picture>
         <source media="(prefers-color-scheme: light)" srcset="images/microchip-light.png">
