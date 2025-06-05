@@ -3,9 +3,9 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.3.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic18f56q71-ultrasonic-range-detection-mplab-mcc",
+        "name": "com.microchip.mcu8.mplabx.project.test-peoject-pic18f56q71-ultrasonic-range-detection-mplab-mcc",
         "version": "1.0.0",
-        "displayName": "Fine-tune Signal Amplification with Integrated Analog featuring Ultrasonic Range Detection - Use Case for the PIC18F56Q71 Microcontroller with MCC Melody",
+        "displayName": "Test Project- Use Case for the PIC18F56Q71 Microcontroller with MCC Melody",
         "projectName": "pic18f56q71-ultrasonic-range-detection-mplab-mcc",
         "shortDescription": "This code example demonstrates how an ultrasonic range detector can be built using the Core Independent Peripherals available on the PIC18-Q71 device family.",
         "ide": {
